@@ -1,0 +1,151 @@
+.card {
+	border-radius: 5px ; /*se truc permet de metre au rond les photos */
+    border: 1px solid black; /* se truc mais les pors au image */
+	text-align: center ; /*se truc metre au centre les image et ecriture */
+	display: inline-block; /*se truc permet que les image et les chose ecris soit en mode 123456 en ligne deux par deux */ 
+	width: 20%; /* se truc permet fait la taille des image en mode paysange cote */
+	background-color:#F6B2A3; /* se truc fait le fond de la page */
+	margin: 5px; /*truc fait la disance entre les bloc des image et des dessin et des aussi des ecriture*/
+}
+
+img {
+	width:100%;
+}
+
+body {
+	text-align: center;
+	background-color:#A2F69E;
+}
+.kristaline{
+   text-align: center;
+   color: blue;
+}
+.point {
+	color:blue;
+	text-decoration: none ;
+	background-color: #94F689;
+}
+
+h3 {
+	font-size: 30 px;
+}
+.yellow {
+	border-radius: 100px;
+}
+.item {
+	margin: 20px; /*se tek fait la distance entre les bloc des bloc du titre */
+	font-size: 25px;/*se tek fait la mesure des bloc du titre */
+	text-decoration: none;/* se tek enlaive des truv soulinier des titre */
+	color: #800000; 
+	border: 1px solid black;/* se tek fait fait les ramka des bloc */
+	width: 200px;/*  se tek fait les bloc du titre plus gros */
+	display: inline-block;
+	padding: 5px; /* la distance entre les bloc */
+	border-radius:45px;
+	box-shadow:3px 5px 3px 1px;
+   
+}
+.menu {
+	padding: 10px; 
+}
+.red {
+	color: red;
+}
+.green{
+	color: green;
+}
+.pink{
+	color: yellow ;
+}
+
+caption{
+	font-size: 40px;
+	color: #9962CC;
+	margin-bottom:20px ;
+	text-shadow: 2px 2px 2px yellow ;
+
+}
+
+table{
+	width: 80%;
+	margin: 50px auto;
+	border-collapse: collapse; /* Sa enleve les ligne dans le tableux */
+}
+tr{
+	background-color: white;}
+
+td{
+   padding-left: 10px;
+   padding-right:10px;
+   padding-bottom:10px;
+   padding-top:30px;
+   border-bottom: 1px dashed gray;
+   border-left: 1px dashed gray;
+   border-right: 1px dashed gray ;
+
+}
+
+th{
+	padding-left:10px ;
+	padding-right:10px ;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	border-top-left-radius: 15px;
+	border-top-right-radius:15px;
+	height: 150px;
+	font-size: 22px
+}
+
+.prix{
+	box-shadow: 1px 4px 8px gray;
+	padding:15px;
+	margin: 0 auto;
+
+
+
+}
+
+.basic{
+	background-color: blue;
+	color:white;	
+}
+
+.pro{
+	background-color: pink;
+	color: white;
+}
+
+.gold{
+	background-color: yellow;
+	color: white;
+}
+
+.super{
+	background-color: red;
+	color: white;
+}
+
+.prixbutton{
+	margin: 20px;
+	display: inline-block;
+	padding: 20px 5px;
+	border: 1px solid black;
+	text-decoration: none;
+	font-size: 18px;
+	width: 200px;
+	border-radius: 45px;
+	text-shadow: 1px 3px 4px gray ;
+	box-shadow: 1px 1px 2px black ;
+
+}
+
+.bot {
+	width: 67%;
+}
+
+.text {
+	width: 63%;
+	text-align: center;
+	display: inline-block;
+	padding: 30px;
+}
